@@ -1,0 +1,27 @@
+.footer {
+     background: #2C3154;
+    padding: 23px 0;
+}
+.footer-wrap {
+    width: 370px;
+    margin: 0 auto;
+    p {
+        color: #808080;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    span {
+        color: $withe;
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+}

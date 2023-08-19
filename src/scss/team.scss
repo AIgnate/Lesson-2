@@ -1,0 +1,72 @@
+.team {
+    background: $withe;
+    padding: 114px 0;
+}
+
+.team-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.team-card {
+    width: 270px;
+    margin: 0 10px;
+}
+
+.team-img {
+    img {
+        width: 270px;
+        height: 270px;
+        object-fit: cover;
+    }
+}
+
+.team-title {
+    color: $dark;
+    font-family: Raleway;
+    font-size: $medium;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.team-info {
+    color: $red;
+    font-family: Raleway;
+    font-size: $small;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 5.29px;
+}
+
+.team-text {
+    p {
+        color: $gray;
+        font-family: Raleway;
+        font-size: $small;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 17.86px;
+    }
+}
+
+.nav-team {
+    width: 130px;
+    margin-top: 37px;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        .icons-font {
+            @include icon-font;
+        }
+    }
+}
