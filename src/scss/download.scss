@@ -25,6 +25,10 @@
     text-transform: uppercase;
 }
 .download-link {
+    @media (max-width:320px){
+        width: 280px;
+        height: 60px;
+    }
     @include link;
     margin: 47px auto 0;
 }

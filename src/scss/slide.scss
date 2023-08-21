@@ -10,11 +10,19 @@
 }
 
 .swiper-slide {
+    @media(max-width:320px) {
+        display: flex;
+        flex-direction: column;
+    }
     display: flex;
     background: $bg_cherry;
 }
 
 .swiper-logo {
+    @media (max-width:320px){
+        width: 320px;
+        height: 212px;
+    }
     width: 741px;
     height: 490px;
 
@@ -26,12 +34,18 @@
 }
 
 .swiper-right {
+    @media(max-width:320px) {
+        width: 320px;
+    }
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 741px;
 
     .swiper-review {
+        @media(max-width:320px) {
+            width: 287px;
+        }
         margin: 0 auto;
         width: 471px;
         display: flex;
@@ -39,9 +53,16 @@
         justify-content: center;
 
         .swiper-text {
+            @media(max-width:320px){
+                width: 275px;
+            }
             padding: 10px 10px 10px 0;
 
             p {
+                @media(max-width:320px){
+                    font-size: 24px;
+                    text-align: center;
+                }
                 color: #FFF;
                 font-family: Cardo;
                 font-size: 36px;

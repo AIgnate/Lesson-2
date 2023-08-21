@@ -1,4 +1,7 @@
 .contacts {
+    @media(max-width: 320px){
+        padding: 34px 0;
+    }
     padding: 71px 0;
     background: #353C65;
 }
@@ -11,10 +14,16 @@
 }
 
 .contact-info {
+    @media (max-width:1024px) {
+        width: 331px;
+    }
     width: 370px;
 }
 
 .contact-title {
+    @media(max-width: 320px){
+        margin-top: 60px;
+    }
     color: $withe;
     text-align: center;
     font-family: Raleway;

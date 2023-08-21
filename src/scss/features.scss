@@ -1,9 +1,15 @@
 .features {
+    @media (max-width:320px) {
+        padding: 40px 0;
+    }
     padding: 116px 0;
     background: $withe;
 }
 
 .features__wrap {
+    @media (max-width:320px) {
+        
+    }
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -11,6 +17,13 @@
 }
 
 .wrap__card {
+    @media (max-width: 1024px) {
+        width: 311px;
+    }
+    @media (max-width:320px){
+        margin: 40px auto 0 ;
+        width: 279px;
+    }
     width: 360px;
     margin: 0 15px;
 
@@ -25,6 +38,10 @@
     }
 
     .card__title {
+        @media (max-width:320px){
+            font-size: 18px;
+            width: 279px;
+        }
             width: 320px;
             margin: 29px  auto 20px;
             color: $dark;
@@ -38,6 +55,9 @@
     }
 
     .card__info {
+        @media (max-width:320px){
+            font-size: 14px;
+        }
         text-align: center;
         font-family: Raleway;
         font-style: normal;
@@ -49,5 +69,8 @@
 }
 
 .cards-bottom {
+    @media (max-width:320px){
+        margin-top: 40px;
+    }
     margin-top: 87px;
 }
