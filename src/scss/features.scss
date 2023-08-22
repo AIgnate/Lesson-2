@@ -39,8 +39,8 @@
 
     .card__title {
         @media (max-width:320px){
+            width: 280px;
             font-size: 18px;
-            width: 279px;
         }
             width: 320px;
             margin: 29px  auto 20px;

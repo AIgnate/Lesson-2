@@ -36,6 +36,9 @@
 }
 
 .team-title {
+    @media(max-width:320px){
+        font-size: 18px;
+    }
     color: $dark;
     font-family: Raleway;
     font-size: $medium;
@@ -47,6 +50,9 @@
 }
 
 .team-info {
+    @media(max-width:320px){
+        font-size: 14px;
+    }
     color: $red;
     font-family: Raleway;
     font-size: $small;
@@ -59,7 +65,9 @@
 
 .team-text {
     p {
-
+        @media(max-width:320px){
+            font-size: 14px;
+        }
         color: $gray;
         font-family: Raleway;
         font-size: $small;

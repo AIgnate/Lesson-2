@@ -16,6 +16,7 @@
 .contact-info {
     @media (max-width:1024px) {
         width: 331px;
+        font-size: 14px;
     }
     width: 370px;
 }
@@ -23,6 +24,7 @@
 .contact-title {
     @media(max-width: 320px){
         margin-top: 60px;
+        font-size: 14px;
     }
     color: $withe;
     text-align: center;
@@ -39,6 +41,9 @@
     margin-top: 30px;
 
     p {
+        @media(max-width:320px){
+            font-size: 14px;
+        }
         color: #FFF;
         text-align: center;
         font-family: Raleway;
